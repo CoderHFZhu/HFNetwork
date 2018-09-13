@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+NetworkCache.h"
+#import "AppDelegate+NetworkException.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self configNetCacheCondition];
+    [self configHandleNetException];
+//    [[HFNetworkManager sharedInstance] clearDisk];
+
     return YES;
 }
 

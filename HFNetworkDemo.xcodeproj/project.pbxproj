@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BE4A1478030EFF916B8B2CD /* libPods-HFNetworkDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C38240C107074C2DE4C27CE1 /* libPods-HFNetworkDemoTests.a */; };
+		4BE5A51403604EBB115A518D /* libPods-HFNetworkDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9B269FCCDAC4B86C778C35 /* libPods-HFNetworkDemoUITests.a */; };
 		A7CD0B7721496EF700F9D3AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0B7621496EF700F9D3AA /* AppDelegate.m */; };
 		A7CD0B7A21496EF700F9D3AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0B7921496EF700F9D3AA /* ViewController.m */; };
 		A7CD0B7D21496EF700F9D3AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CD0B7B21496EF700F9D3AA /* Main.storyboard */; };
@@ -15,6 +17,14 @@
 		A7CD0B8521496EF900F9D3AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0B8421496EF900F9D3AA /* main.m */; };
 		A7CD0B8F21496EF900F9D3AA /* HFNetworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0B8E21496EF900F9D3AA /* HFNetworkDemoTests.m */; };
 		A7CD0B9A21496EF900F9D3AA /* HFNetworkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0B9921496EF900F9D3AA /* HFNetworkDemoUITests.m */; };
+		A7CD0BAA214A1C1300F9D3AA /* HFNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0BA9214A1C1300F9D3AA /* HFNetworkManager.m */; };
+		A7CD0BAD214A2C7C00F9D3AA /* HFRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0BAC214A2C7C00F9D3AA /* HFRequestModel.m */; };
+		A7CD0BB0214A2F1700F9D3AA /* HFMD5Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0BAF214A2F1700F9D3AA /* HFMD5Convert.m */; };
+		A7CD0BB7214A3C7D00F9D3AA /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0BB6214A3C7D00F9D3AA /* Foundation+Log.m */; };
+		A7CD0BBA214A463D00F9D3AA /* HFNetLocalCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0BB9214A463D00F9D3AA /* HFNetLocalCache.m */; };
+		A7CD0BBE214A5FD600F9D3AA /* AppDelegate+NetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0BBD214A5FD600F9D3AA /* AppDelegate+NetworkCache.m */; };
+		A7CD0BC1214A603E00F9D3AA /* AppDelegate+NetworkException.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD0BC0214A603E00F9D3AA /* AppDelegate+NetworkException.m */; };
+		C7D1AFB48411A94173F64AF8 /* libPods-HFNetworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEC5264A45FAA49162FD065 /* libPods-HFNetworkDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18C333468D0BA6D0215C8ED4 /* Pods-HFNetworkDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFNetworkDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HFNetworkDemoTests/Pods-HFNetworkDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A974BB4AE876C21B7ED7354 /* Pods-HFNetworkDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFNetworkDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HFNetworkDemoUITests/Pods-HFNetworkDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CEC5264A45FAA49162FD065 /* libPods-HFNetworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HFNetworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		635D31851FBF78CDF427C95B /* Pods-HFNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HFNetworkDemo/Pods-HFNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6E6C8F904502C5F1B36D991C /* Pods-HFNetworkDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFNetworkDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HFNetworkDemoUITests/Pods-HFNetworkDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A464F8D5305305787B8F7A11 /* Pods-HFNetworkDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFNetworkDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HFNetworkDemoTests/Pods-HFNetworkDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7CD0B7221496EF700F9D3AA /* HFNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CD0B7521496EF700F9D3AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7CD0B7621496EF700F9D3AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,22 @@
 		A7CD0B9521496EF900F9D3AA /* HFNetworkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFNetworkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CD0B9921496EF900F9D3AA /* HFNetworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFNetworkDemoUITests.m; sourceTree = "<group>"; };
 		A7CD0B9B21496EF900F9D3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CD0BA8214A1C1300F9D3AA /* HFNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFNetworkManager.h; sourceTree = "<group>"; };
+		A7CD0BA9214A1C1300F9D3AA /* HFNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFNetworkManager.m; sourceTree = "<group>"; };
+		A7CD0BAB214A2C7C00F9D3AA /* HFRequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFRequestModel.h; sourceTree = "<group>"; };
+		A7CD0BAC214A2C7C00F9D3AA /* HFRequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFRequestModel.m; sourceTree = "<group>"; };
+		A7CD0BAE214A2F1700F9D3AA /* HFMD5Convert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFMD5Convert.h; sourceTree = "<group>"; };
+		A7CD0BAF214A2F1700F9D3AA /* HFMD5Convert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFMD5Convert.m; sourceTree = "<group>"; };
+		A7CD0BB6214A3C7D00F9D3AA /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		A7CD0BB8214A463D00F9D3AA /* HFNetLocalCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFNetLocalCache.h; sourceTree = "<group>"; };
+		A7CD0BB9214A463D00F9D3AA /* HFNetLocalCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFNetLocalCache.m; sourceTree = "<group>"; };
+		A7CD0BBC214A5FD600F9D3AA /* AppDelegate+NetworkCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+NetworkCache.h"; sourceTree = "<group>"; };
+		A7CD0BBD214A5FD600F9D3AA /* AppDelegate+NetworkCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+NetworkCache.m"; sourceTree = "<group>"; };
+		A7CD0BBF214A603E00F9D3AA /* AppDelegate+NetworkException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+NetworkException.h"; sourceTree = "<group>"; };
+		A7CD0BC0214A603E00F9D3AA /* AppDelegate+NetworkException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+NetworkException.m"; sourceTree = "<group>"; };
+		C38240C107074C2DE4C27CE1 /* libPods-HFNetworkDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HFNetworkDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9B269FCCDAC4B86C778C35 /* libPods-HFNetworkDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HFNetworkDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F278B767510D1716E2713F8C /* Pods-HFNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HFNetworkDemo/Pods-HFNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D1AFB48411A94173F64AF8 /* libPods-HFNetworkDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE4A1478030EFF916B8B2CD /* libPods-HFNetworkDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +106,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE5A51403604EBB115A518D /* libPods-HFNetworkDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82DC88E2EE3DC50BEC9A1ADC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				635D31851FBF78CDF427C95B /* Pods-HFNetworkDemo.debug.xcconfig */,
+				F278B767510D1716E2713F8C /* Pods-HFNetworkDemo.release.xcconfig */,
+				A464F8D5305305787B8F7A11 /* Pods-HFNetworkDemoTests.debug.xcconfig */,
+				18C333468D0BA6D0215C8ED4 /* Pods-HFNetworkDemoTests.release.xcconfig */,
+				6E6C8F904502C5F1B36D991C /* Pods-HFNetworkDemoUITests.debug.xcconfig */,
+				1A974BB4AE876C21B7ED7354 /* Pods-HFNetworkDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A7CD0B6921496EF700F9D3AA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +133,8 @@
 				A7CD0B8D21496EF900F9D3AA /* HFNetworkDemoTests */,
 				A7CD0B9821496EF900F9D3AA /* HFNetworkDemoUITests */,
 				A7CD0B7321496EF700F9D3AA /* Products */,
+				82DC88E2EE3DC50BEC9A1ADC /* Pods */,
+				EF2E74EB640E46C2C31FDA1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +151,8 @@
 		A7CD0B7421496EF700F9D3AA /* HFNetworkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A7CD0BBB214A5FAB00F9D3AA /* Network+hook */,
+				A7CD0BA7214A1BD300F9D3AA /* HFNetwork */,
 				A7CD0B7521496EF700F9D3AA /* AppDelegate.h */,
 				A7CD0B7621496EF700F9D3AA /* AppDelegate.m */,
 				A7CD0B7821496EF700F9D3AA /* ViewController.h */,
@@ -132,6 +184,43 @@
 			path = HFNetworkDemoUITests;
 			sourceTree = "<group>";
 		};
+		A7CD0BA7214A1BD300F9D3AA /* HFNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A7CD0BA8214A1C1300F9D3AA /* HFNetworkManager.h */,
+				A7CD0BA9214A1C1300F9D3AA /* HFNetworkManager.m */,
+				A7CD0BAB214A2C7C00F9D3AA /* HFRequestModel.h */,
+				A7CD0BAC214A2C7C00F9D3AA /* HFRequestModel.m */,
+				A7CD0BB8214A463D00F9D3AA /* HFNetLocalCache.h */,
+				A7CD0BB9214A463D00F9D3AA /* HFNetLocalCache.m */,
+				A7CD0BAE214A2F1700F9D3AA /* HFMD5Convert.h */,
+				A7CD0BAF214A2F1700F9D3AA /* HFMD5Convert.m */,
+			);
+			path = HFNetwork;
+			sourceTree = "<group>";
+		};
+		A7CD0BBB214A5FAB00F9D3AA /* Network+hook */ = {
+			isa = PBXGroup;
+			children = (
+				A7CD0BB6214A3C7D00F9D3AA /* Foundation+Log.m */,
+				A7CD0BBC214A5FD600F9D3AA /* AppDelegate+NetworkCache.h */,
+				A7CD0BBD214A5FD600F9D3AA /* AppDelegate+NetworkCache.m */,
+				A7CD0BBF214A603E00F9D3AA /* AppDelegate+NetworkException.h */,
+				A7CD0BC0214A603E00F9D3AA /* AppDelegate+NetworkException.m */,
+			);
+			path = "Network+hook";
+			sourceTree = "<group>";
+		};
+		EF2E74EB640E46C2C31FDA1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CEC5264A45FAA49162FD065 /* libPods-HFNetworkDemo.a */,
+				C38240C107074C2DE4C27CE1 /* libPods-HFNetworkDemoTests.a */,
+				EF9B269FCCDAC4B86C778C35 /* libPods-HFNetworkDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7CD0B9E21496EF900F9D3AA /* Build configuration list for PBXNativeTarget "HFNetworkDemo" */;
 			buildPhases = (
+				75106027275921ACF7C0C3CC /* [CP] Check Pods Manifest.lock */,
 				A7CD0B6E21496EF700F9D3AA /* Sources */,
 				A7CD0B6F21496EF700F9D3AA /* Frameworks */,
 				A7CD0B7021496EF700F9D3AA /* Resources */,
@@ -156,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7CD0BA121496EF900F9D3AA /* Build configuration list for PBXNativeTarget "HFNetworkDemoTests" */;
 			buildPhases = (
+				D98726E86704C9DD3C705C3A /* [CP] Check Pods Manifest.lock */,
 				A7CD0B8621496EF900F9D3AA /* Sources */,
 				A7CD0B8721496EF900F9D3AA /* Frameworks */,
 				A7CD0B8821496EF900F9D3AA /* Resources */,
@@ -174,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7CD0BA421496EF900F9D3AA /* Build configuration list for PBXNativeTarget "HFNetworkDemoUITests" */;
 			buildPhases = (
+				73F3845E4BCB4E48F5B2767A /* [CP] Check Pods Manifest.lock */,
 				A7CD0B9121496EF900F9D3AA /* Sources */,
 				A7CD0B9221496EF900F9D3AA /* Frameworks */,
 				A7CD0B9321496EF900F9D3AA /* Resources */,
@@ -257,13 +349,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73F3845E4BCB4E48F5B2767A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HFNetworkDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75106027275921ACF7C0C3CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HFNetworkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D98726E86704C9DD3C705C3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HFNetworkDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7CD0B6E21496EF700F9D3AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7CD0BBA214A463D00F9D3AA /* HFNetLocalCache.m in Sources */,
+				A7CD0BBE214A5FD600F9D3AA /* AppDelegate+NetworkCache.m in Sources */,
+				A7CD0BAA214A1C1300F9D3AA /* HFNetworkManager.m in Sources */,
+				A7CD0BB7214A3C7D00F9D3AA /* Foundation+Log.m in Sources */,
+				A7CD0BAD214A2C7C00F9D3AA /* HFRequestModel.m in Sources */,
 				A7CD0B7A21496EF700F9D3AA /* ViewController.m in Sources */,
 				A7CD0B8521496EF900F9D3AA /* main.m in Sources */,
+				A7CD0BC1214A603E00F9D3AA /* AppDelegate+NetworkException.m in Sources */,
+				A7CD0BB0214A2F1700F9D3AA /* HFMD5Convert.m in Sources */,
 				A7CD0B7721496EF700F9D3AA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +587,7 @@
 		};
 		A7CD0B9F21496EF900F9D3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635D31851FBF78CDF427C95B /* Pods-HFNetworkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +604,7 @@
 		};
 		A7CD0BA021496EF900F9D3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F278B767510D1716E2713F8C /* Pods-HFNetworkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +621,7 @@
 		};
 		A7CD0BA221496EF900F9D3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A464F8D5305305787B8F7A11 /* Pods-HFNetworkDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +640,7 @@
 		};
 		A7CD0BA321496EF900F9D3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C333468D0BA6D0215C8ED4 /* Pods-HFNetworkDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +659,7 @@
 		};
 		A7CD0BA521496EF900F9D3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6C8F904502C5F1B36D991C /* Pods-HFNetworkDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HFNetworkDemoUITests/Info.plist;
@@ -516,6 +677,7 @@
 		};
 		A7CD0BA621496EF900F9D3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A974BB4AE876C21B7ED7354 /* Pods-HFNetworkDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HFNetworkDemoUITests/Info.plist;
